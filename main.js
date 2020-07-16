@@ -66,3 +66,24 @@ function subtractNumbers(num1, num2){
 }
 
 console.log(calculator(5,77, addNumbers, subtractNumbers));
+
+//super hero
+
+function superHero(abilityOne, abilityTwo){
+    let sentence = abilityOne() + ' and ' + abilityTwo();
+
+     return sentence;
+}
+function shrink() {
+    let power = 'I can shrink down to ant size';
+
+    return power;
+}
+
+function superStrength(){
+    let strength = 'I retain my strength no matter what size i become'
+
+    return strength;
+}
+
+console.log(superHero(shrink, superStrength));
