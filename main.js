@@ -87,3 +87,28 @@ function superStrength(){
 }
 
 console.log(superHero(shrink, superStrength));
+
+
+// Timing Functions
+
+function blastOff(){
+    let num = 0;
+
+    for (let i = 10; i >= num; i--){
+        console.log(i); // 10, 9, 8, 7, 6...
+    }
+
+    console.log('BLAST OFF!!')
+}
+
+setTimeout(blastOff, 5000);
+
+//make a function that prints your name
+//setTimeout and pass in function and a time (5000)
+
+function printName(){
+    var name = 'Shane';
+    console.log(name)
+}
+
+setTimeout(printName, 5000)
