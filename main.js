@@ -112,3 +112,14 @@ function printName(){
 }
 
 setTimeout(printName, 5000)
+
+// Romes option
+
+function printName(name){
+    console.log(name);
+}
+
+let myNameTwo = 'shane';
+setTimeout(function(){
+    printName(myNameTwo);
+})
